@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import styles from './App.module.css';
+import Leftnav from "./components/Leftnav";
+import Rightnav from "./components/Rightnav";
+import Box from './components/Box';
+import MergeBox from "./components/Mergebox";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+    <div className={styles.main}>
+      <Leftnav/>
+      <Rightnav/>
+     </div>
+      <Box/>
+      <MergeBox/>
+     </div>
   );
 }
 

@@ -1,0 +1,11 @@
+.rightnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* margin-right: 4rem; */
+    flex:5;
+}
+.img{
+    height:2rem;
+    width: 2rem;
+}

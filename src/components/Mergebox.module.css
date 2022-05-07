@@ -1,0 +1,28 @@
+.body{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+/* .gap{
+    margin-top: 10rem;
+}
+.gap2{
+   margin-top:22rem; 
+} */
+.downarrow
+{
+ height:2rem;
+ width:2rem;
+ transform: rotate(-90deg);
+ margin-left:5rem;
+}
+.rightarrow{
+    height:2rem;
+    width:2rem;
+    transform: rotate(-180deg);
+    margin-left:5rem;
+    margin-top:8rem;
+}
+.coloumbox{
+    margin: 0px;
+}
